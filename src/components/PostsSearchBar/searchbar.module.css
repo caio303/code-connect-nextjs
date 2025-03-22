@@ -1,0 +1,32 @@
+.searchBar {
+    display: flex;
+    width: 100%;
+    gap: 2%;
+}
+
+.searchBar input {
+    color: #BCBCBC;
+    background-color: #171D1F;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 88%;
+    padding: 12px;
+}
+
+.searchBar input:focus {
+    outline: none;
+}
+
+.searchBar a {
+    border: none;
+    border-radius: 8px;
+    background-color: #81FE88;
+    text-decoration: none;
+    color: #132E35;
+    width: 10%;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+}

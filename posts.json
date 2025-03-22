@@ -169,7 +169,7 @@
             }
         },
         {
-            "id": 2,
+            "id": 13,
             "cover": "https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/posts/css-grid-na-pratica.png",
             "title": "CSS Grid na Prática",
             "slug": "css-grid-na-pratica",
@@ -183,7 +183,7 @@
             }
         },
         {
-            "id": 3,
+            "id": 14,
             "cover": "https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/posts/vuejs-para-iniciantes.png",
             "title": "Vue.js para Iniciantes",
             "slug": "vuejs-para-iniciantes",
@@ -197,7 +197,7 @@
             }
         },
         {
-            "id": 9,
+            "id": 15,
             "cover": "https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/posts/gerenciamento-de-estado-com-redux.png",
             "title": "Gerenciamento de Estado com Redux",
             "slug": "gerenciamento-de-estado-com-redux",
@@ -211,7 +211,7 @@
             }
         },
         {
-            "id": 10,
+            "id": 16,
             "cover": "https://raw.githubusercontent.com/viniciosneves/code-connect-assets/main/posts/sass-simplificando-o-css.png",
             "title": "Sass: Simplificando o CSS",
             "slug": "sass-simplificando-o-css",
