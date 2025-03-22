@@ -36,11 +36,9 @@ const PagePost = async ({ params }) => {
 
   return (
     <>
-      <section className={styles.codigo}>
-        <CardPost post={post} type="big"/>
-        <h3 className={styles.subtitle}>Código</h3>
-        <div dangerouslySetInnerHTML={{ __html: post.markdown}}></div>
-      </section>
+      <CardPost post={post} type="big"/>
+      <h3 className={styles.subtitle}>Código</h3>
+      <div className={styles.codigo} dangerouslySetInnerHTML={{ __html: post.markdown}}></div>
     </>
   );
 };
