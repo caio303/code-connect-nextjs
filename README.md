@@ -1,5 +1,5 @@
-Projeto de estudo do framework Next.js na versão `15.2.2`
-Status: <sub style="color:green">FINALIZADO (estilização wip)</sub>
+Projeto de estudo do framework Next.js na versão `15.2.2`<br/>
+Status: `FINALIZADO (estilização WIP)` ✅
 
 ## Code Connect
 
