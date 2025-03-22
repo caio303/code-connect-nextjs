@@ -27,7 +27,7 @@ const getAllPosts = async (page, postTitleQuery) => {
     return { data: json }
   }
 
-  // paginação parou de funcionar, mas quando implementar o back eu ajeito
+  // paginação parou de funcionar, mas quando implementar o back eu ajeito (TODO)
   return { data: json }
 }
 
