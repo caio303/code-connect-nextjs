@@ -4,13 +4,30 @@ import styles from "./cardpost.module.css"
 import Link from "next/link"
 
 
-export const CardPost = ({ post }) => {
+const types = {
+    small: {
+        width: 486,
+        height: 133
+    },
+
+    big: {
+        width: 993,
+        height: 300
+    }
+}
+
+export const CardPost = ({ post, type = 'small' }) => {
+    const cardType = types[type] || types.small
     return (
         <Link href={`/posts/${post.slug}`} className={styles.link}>
-            <article className={styles.card}>
+            <article className={styles.card} style={{ width: cardType.width }}>
                 <header className={styles.header}>
-                    <figure> 
-                        <Image src={post.cover} width={438} height={133} alt={`Imagem do post: ${post.title}`}/>
+                    <figure style={{ height: cardType.height }}> 
+                        <Image 
+                            src={post.cover} 
+                            fill 
+                            alt={`Imagem do post: ${post.title}`}
+                        />
                     </figure>
                 </header>
                 <section className={styles.body}>
